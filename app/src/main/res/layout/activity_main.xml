@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/backg2">
+
+    <TextView
+        android:id="@+id/Signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/Signin"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+    <LinearLayout
+        android:layout_below="@id/Signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/fblogo_btn"
+            android:layout_width="210dp"
+            android:layout_height="35dp"
+            android:paddingHorizontal="8dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:drawableLeft="@drawable/fb_logo"
+            android:text="Sign In with Facebook"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:background="@drawable/round_btn"/>
+
+        <Button
+            android:id="@+id/googlelogo_btn"
+            android:layout_width="210dp"
+            android:layout_height="35dp"
+            android:paddingHorizontal="8dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:drawableLeft="@drawable/googlelogo"
+            android:text="Sign In with Google"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:background="@drawable/google_btn"/>
+
+    </LinearLayout>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/sparksLogo"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:src="@drawable/sparkslogo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginRight="20dp"/>
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

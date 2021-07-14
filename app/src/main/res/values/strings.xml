@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Social Media Integration</string>
+
+    <string name="appname">Social Media Integration</string>
+    <string name="design">Designed By : Pragati. B .Gawade</string>
+    <!--    <string name="Name">Pragati. B . Gawade</string>-->
+
+    <string name="facebook_app_id">398802198278748</string>
+    <string name="fb_login_protocol_scheme">fb398802198278748</string>
+
+
+
+</resources>
